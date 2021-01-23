@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HouseMatez.iml" filepath="$PROJECT_DIR$/.idea/modules/HouseMatez.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HouseMatez.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HouseMatez.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HouseMatez.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/HouseMatez.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/HouseMatez.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/HouseMatez.presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-android/HouseMatez.presentation-android.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-android/HouseMatez.presentation-android.iml" />
+    </modules>
+  </component>
+</project>
