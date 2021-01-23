@@ -27,6 +27,8 @@ fun RepositoryHandler.applyDefault() {
     google()
     jcenter()
     mavenCentral()
+    maven ("https://jitpack.io")
+    maven (  "https://plugins.gradle.org/m2/")
     maven("https://dl.bintray.com/kotlin/kotlin-eap")
     maven("https://oss.sonatype.org/content/repositories/snapshots/")
 }

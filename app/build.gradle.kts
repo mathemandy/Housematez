@@ -12,6 +12,7 @@ android {
     defaultConfig {
         applicationId = Versions.App.id
     }
+    dynamicFeatures = mutableSetOf(":feature:auth:Login")
 }
 
 dependencies {

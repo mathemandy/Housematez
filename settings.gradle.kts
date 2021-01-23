@@ -1,3 +1,4 @@
+include(":feature:auth:Login")
 include(":app",
         ":presentation",
         ":presentation-android")

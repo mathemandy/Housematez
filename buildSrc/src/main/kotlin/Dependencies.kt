@@ -13,6 +13,8 @@ object Dependencies {
     const val material = "com.google.android.material:material:${Versions.material}"
     const val androidBase = "com.github.enginebai:AndroidBase:${Versions.androidBase}"
     const val androidMaven = "com.github.dcendents:android-maven-gradle-plugin:${Versions.androidMaven}"
+    const val hilt  = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
+    const val ktlint  = "org.jlleitschuh.gradle:ktlint-gradle:9.4.1"
 
     const val rxJava = "io.reactivex.rxjava2:rxjava:${Versions.rxJava}"
     const val rxAndroid = "io.reactivex.rxjava2:rxandroid:${Versions.rxAndroid}"
@@ -49,6 +51,12 @@ object Dependencies {
         const val android = "org.koin:koin-android:${Versions.koin}"
         const val viewModel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
         const val test = "org.koin:koin-test:${Versions.koin}"
+    }
+
+    object  Dagger {
+        const val android = "com.google.dagger:hilt-android:${Versions.hilt}"
+        const val compiler = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
+
     }
 
     object Retrofit {
@@ -107,7 +115,7 @@ object Dependencies {
     }
 }
 
-val commonPlugins = arrayOf("kotlin-android", "kotlin-android-extensions", "kotlin-kapt")
+val commonPlugins = arrayOf("kotlin-android", "kotlin-android-extensions", "kotlin-kapt", "dagger.hilt.android.plugin")
 
 // apply common plugin
 fun Project.importCommonDependencies() {
@@ -116,9 +124,6 @@ fun Project.importCommonDependencies() {
         // The two following syntax is applicable
         // source: https://github.com/gradle/kotlin-dsl-samples/issues/843
         "implementation"(Dependencies.Kotlin.stdLib)
-
-        "implementation"(Dependencies.rxJava)
-        "implementation"(Dependencies.rxAndroid)
 
         val implementation by configurations
         val kapt by configurations
@@ -133,8 +138,8 @@ fun Project.importCommonDependencies() {
         kapt(Dependencies.AndroidX.lifecycleCompiler)
         implementation(Dependencies.material)
 
-        implementation(Dependencies.Koin.android)
-        implementation(Dependencies.Koin.viewModel)
+        implementation(Dependencies.Dagger.android)
+        kapt(Dependencies.Dagger.compiler)
 
         implementation(Dependencies.Logging.logger)
         implementation(Dependencies.Logging.timber)

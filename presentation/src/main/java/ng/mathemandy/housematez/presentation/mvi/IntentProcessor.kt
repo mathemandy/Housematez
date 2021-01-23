@@ -2,7 +2,6 @@ package ng.mathemandy.housematez.presentation.mvi
 
 import kotlinx.coroutines.flow.Flow
 
-
 interface IntentProcessor<out R : ViewResult> {
     fun intentToResult(viewIntent: ViewIntent): Flow<R>
 }

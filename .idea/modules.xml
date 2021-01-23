@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HouseMatez.iml" filepath="$PROJECT_DIR$/.idea/modules/HouseMatez.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HouseMatez.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HouseMatez.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HouseMatez.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/HouseMatez.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/HouseMatez.feature.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/HouseMatez.feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/auth/HouseMatez.feature.auth.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/auth/HouseMatez.feature.auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feature/auth/Login/HouseMatez.feature.auth.Login.iml" filepath="$PROJECT_DIR$/.idea/modules/feature/auth/Login/HouseMatez.feature.auth.Login.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation/HouseMatez.presentation.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation/HouseMatez.presentation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/presentation-android/HouseMatez.presentation-android.iml" filepath="$PROJECT_DIR$/.idea/modules/presentation-android/HouseMatez.presentation-android.iml" />
     </modules>

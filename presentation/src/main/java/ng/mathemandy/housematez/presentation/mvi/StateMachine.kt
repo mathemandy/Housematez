@@ -4,10 +4,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableSharedFlow
-import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.flatMapMerge
+import kotlinx.coroutines.flow.*
 import ng.mathemandy.housematez.presentation.mvi.util.Atomic
 
 abstract class StateMachine<S : ScreenState, R : ViewResult>(
@@ -23,8 +20,7 @@ abstract class StateMachine<S : ScreenState, R : ViewResult>(
 
     private val subscribers: MutableList<Subscription<S, ViewState>> = mutableListOf()
 
-    private val cachedState: Atomic<S> =
-        Atomic(initialState)
+    private val cachedState: Atomic<S> = Atomic(initialState)
 
     private val intents: MutableSharedFlow<ViewIntent> =
         MutableSharedFlow<ViewIntent>(1).apply {
@@ -62,11 +58,7 @@ abstract class StateMachine<S : ScreenState, R : ViewResult>(
         subscriber: Subscriber<V>,
         transform: StateTransform<S, V>
     ) {
-        val subscription: Subscription<S, V> =
-            Subscription(
-                subscriber,
-                transform
-            )
+        val subscription: Subscription<S, V> = Subscription(subscriber, transform)
         subscribers += subscription as Subscription<S, ViewState>
         subscription.updateState(cachedState.value)
     }
