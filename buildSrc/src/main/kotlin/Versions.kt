@@ -37,6 +37,8 @@ object Versions {
     object App {
         const val id = "ng.mathemandy.housematex"
         const val loginID  = "ng.mathemandy.login"
+        const val onboardingId  = "ng.mathemandy.onboarding"
+
         const val versionCode = 1
         const val versionName = "1.0.0"
     }

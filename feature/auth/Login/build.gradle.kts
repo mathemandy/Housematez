@@ -3,7 +3,6 @@ plugins {
     commonPlugins.forEach { id(it) }
 }
 
-
 configAndroid()
 importCommonDependencies()
 android {
@@ -11,9 +10,6 @@ android {
         applicationId = Versions.App.loginID
     }
 }
-
-
-
 
 dependencies {
     implementation(project(":app"))

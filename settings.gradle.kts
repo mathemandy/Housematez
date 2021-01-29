@@ -1,3 +1,4 @@
+include(":feature:onboarding")
 include(":feature:auth:Login")
 include(":app",
         ":presentation",

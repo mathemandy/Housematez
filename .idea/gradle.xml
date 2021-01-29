@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/auth" />
             <option value="$PROJECT_DIR$/feature/auth/Login" />
+            <option value="$PROJECT_DIR$/feature/onboarding" />
             <option value="$PROJECT_DIR$/presentation" />
             <option value="$PROJECT_DIR$/presentation-android" />
           </set>

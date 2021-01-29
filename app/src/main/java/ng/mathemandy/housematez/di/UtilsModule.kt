@@ -1,9 +1,8 @@
 package ng.mathemandy.housematez.di
 
-
 const val LOG_TAG = "enginebai"
 
-//val logModule = module {
+// val logModule = module {
 //    single<AndroidLogAdapter> { (formatStrategy: FormatStrategy) ->
 //        object : AndroidLogAdapter(formatStrategy) {
 //            override fun isLoggable(priority: Int, tag: String?): Boolean {
@@ -21,4 +20,4 @@ const val LOG_TAG = "enginebai"
 //    }
 
 //    single<Timber.Tree> { TimberLoggerDebugTree() }
-//}
+// }

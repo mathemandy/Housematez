@@ -29,6 +29,8 @@ allprojects {
 }
 
 subprojects {
+    apply(plugin = "org.jlleitschuh.gradle.ktlint") // Version should be inherited from parent
+
     tasks.withType<KotlinCompile>().configureEach {
         kotlinOptions.freeCompilerArgs +=
             "-Xuse-experimental=" +
@@ -38,6 +40,17 @@ subprojects {
                     "kotlinx.coroutines.ObsoleteCoroutinesApi," +
                     "kotlinx.coroutines.FlowPreview"
     }
+
+
+    // Optionally configure plugin
+    configure<org.jlleitschuh.gradle.ktlint.KtlintExtension> {
+        debug.set(true)
+        outputColorName.set("GREEN")
+        disabledRules.set(setOf("import-ordering", "no-wildcard-imports"))
+    }
+
+
+
 }
 
 tasks {

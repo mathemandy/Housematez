@@ -55,6 +55,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../presentation">
       <sourceFolder url="file://$MODULE_DIR$/../../../presentation/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../presentation/src/main/kotlin" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../../presentation/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../presentation/build" />
     </content>

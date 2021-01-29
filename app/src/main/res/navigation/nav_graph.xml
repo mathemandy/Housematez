@@ -8,5 +8,6 @@
     <fragment
         android:id="@+id/fragmentMain"
         tools:layout="@layout/fragment_main"
+        android:name="ng.mathemandy.login.ui.LoginFragment"
         />
 </navigation>
