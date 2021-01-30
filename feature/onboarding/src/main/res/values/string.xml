@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="on_boarding_title">
+        <item>Share Payments</item>
+        <item>Assign Chores</item>
+     </string-array>
+
+    <string-array name="on_boarding_description">
+        <item>Easily split bills between housemates and set reminder to help you remember deadlines</item>
+        <item>Share house chores between housemates and keep track of each mates progress</item>
+     </string-array>
+</resources>

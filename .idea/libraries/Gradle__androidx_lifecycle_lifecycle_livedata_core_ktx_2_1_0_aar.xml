@@ -4,9 +4,14 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a54e3c18fcd0ede71247636711202afe/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc9d4b9a042569b14cf1fd969cf93ef7/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b524cb1afe96a823e68f11dd00d7c614/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5c350a71f67a6aa7b0714e2e97f9aec/jetified-lifecycle-livedata-core-ktx-2.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5c350a71f67a6aa7b0714e2e97f9aec/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f5c350a71f67a6aa7b0714e2e97f9aec/jetified-lifecycle-livedata-core-ktx-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7ec7d2dcefc5b77997489fb953e09825/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2da0b21b28aa1da244e6c414e292e70c/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/270f30461db01200cb5f810a40a8f3c5/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4320557166ab770ec15d0d936ad639c1/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d042199ca47400f8a49d90fcf6a605b1/jetified-lifecycle-livedata-core-ktx-2.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d042199ca47400f8a49d90fcf6a605b1/jetified-lifecycle-livedata-core-ktx-2.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d042199ca47400f8a49d90fcf6a605b1/jetified-lifecycle-livedata-core-ktx-2.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

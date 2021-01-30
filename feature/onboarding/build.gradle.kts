@@ -14,4 +14,8 @@ android {
 
 dependencies {
     implementation(project(":app"))
+    implementation(Dependencies.AndroidX.viewpager)
+    implementation (Dependencies.Font.sdp)
+    implementation (Dependencies.Font.ssp)
+    implementation(Dependencies.circleIndicator)
 }

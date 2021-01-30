@@ -12,9 +12,14 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7aa5272d6b8a3fba9e1f0f4a14575f9b/jetified-timber-4.7.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3a8480bc486d9d532d84c067aa48a557/jetified-timber-4.7.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/52d818d53dd5870acb95b072510dd2a7/jetified-timber-4.7.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d407a9930b2e972dc49d4117de3300fb/jetified-timber-4.7.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d407a9930b2e972dc49d4117de3300fb/jetified-timber-4.7.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d407a9930b2e972dc49d4117de3300fb/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34cb4ab557c293ccd7d8448f20b266f5/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5eec66ea804d3b0a6db5b3516eccd19f/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0872582d124c7f25e5bafaa49057ed9d/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9ea9474996c96e561140499d3f37ec4f/jetified-timber-4.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c3b20fcdf7c2d81d8e67ef00df54a0b/jetified-timber-4.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c3b20fcdf7c2d81d8e67ef00df54a0b/jetified-timber-4.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c3b20fcdf7c2d81d8e67ef00df54a0b/jetified-timber-4.7.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.1/746f28c804e92fe2b0dd553616c78b1c3693ba16/timber-4.7.1-javadoc.jar!/" />

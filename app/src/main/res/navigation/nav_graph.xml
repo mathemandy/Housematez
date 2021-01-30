@@ -3,11 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/fragmentMain">
+    app:startDestination="@id/baseOnBoardingFragment">
 
     <fragment
         android:id="@+id/fragmentMain"
         tools:layout="@layout/fragment_main"
         android:name="ng.mathemandy.login.ui.LoginFragment"
+        />
+
+    <fragment
+        android:id="@+id/baseOnBoardingFragment"
+        tools:layout="@layout/base_on_boarding"
+        android:name="ng.mathemandy.onboarding.ui.BaseOnBoardingFragment"
         />
 </navigation>

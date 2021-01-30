@@ -3,7 +3,7 @@ const val kotlinAndroid: String = "android"
 object Versions {
     const val kotlin = "1.4.21"
     const val androidGradle = "4.1.2"
-    const val material = "1.0.0"
+    const val material = "1.2.0-alpha04"
     const val rxJava = "2.2.19"
     const val rxAndroid = "2.1.1"
     const val gson = "2.8.6"
@@ -16,6 +16,8 @@ object Versions {
     const val androidBase = "1.0.0"
     const val androidMaven = "2.1"
     const val hilt = "2.31-alpha"
+    const val sdp  = "1.0.6"
+    const val circleIndicator  =  "2.1.6"
 
     // Test frameworks
     const val junit = "4.12"
@@ -32,7 +34,10 @@ object Versions {
         const val appCompat = "1.1.0"
         const val core = "1.3.2"
         const val constraintLayout = "1.1.3"
+        const val viewpager  = "1.0.0"
+        const val materialComponent = "1.2.0-alpha04"
     }
+
 
     object App {
         const val id = "ng.mathemandy.housematex"

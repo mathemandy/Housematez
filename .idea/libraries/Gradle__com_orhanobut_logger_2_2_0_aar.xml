@@ -12,9 +12,14 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d4d944747549fdc9cbdbbb7a8987594d/jetified-logger-2.2.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8aa49b291232b12a5bacd5f875afa069/jetified-logger-2.2.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3e3572a2b0fca38cf3fd3413c8918bd4/jetified-logger-2.2.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b66828abcabc9934a8b0d1bb6945d30/jetified-logger-2.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b66828abcabc9934a8b0d1bb6945d30/jetified-logger-2.2.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3b66828abcabc9934a8b0d1bb6945d30/jetified-logger-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ac3cef4c6eace88ee81f7307ded6d3f/jetified-logger-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab1d979e9f398479d0b77d44958e134d/jetified-logger-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/901b63d53defc5ba78a4ab65d2cc12be/jetified-logger-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edbcf806c0629638a0197701a97d250a/jetified-logger-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7547afd1d3aeebc87f88e8631fbb3aa3/jetified-logger-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7547afd1d3aeebc87f88e8631fbb3aa3/jetified-logger-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7547afd1d3aeebc87f88e8631fbb3aa3/jetified-logger-2.2.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orhanobut/logger/2.2.0/98e69754ab23f7179137d8d2a0e3eea79200d746/logger-2.2.0-javadoc.jar!/" />

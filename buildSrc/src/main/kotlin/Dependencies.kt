@@ -22,6 +22,7 @@ object Dependencies {
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
     const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
     const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttp}"
+    const val  circleIndicator =  "me.relex:circleindicator:${Versions.circleIndicator}"
 
     object Kotlin {
         const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
@@ -38,6 +39,9 @@ object Dependencies {
         const val livedata =
             "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.ArchitectureComponents.lifecycle}"
         const val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.ArchitectureComponents.lifecycle}"
+        const val viewpager  = "androidx.viewpager2:viewpager2:${Versions.AndroidX.viewpager}"
+        const val materialComponent: String =
+            "com.google.android.material:material:${Versions.AndroidX.materialComponent}"
     }
 
     object Test {
@@ -82,6 +86,11 @@ object Dependencies {
             "androidx.paging:paging-runtime:${Versions.ArchitectureComponents.paging}"
         const val rxJava2 =
             "androidx.paging:paging-rxjava2:${Versions.ArchitectureComponents.paging}"
+    }
+
+    object  Font  {
+        const val  sdp  =  "com.intuit.sdp:sdp-android:${Versions.sdp}"
+        const val  ssp  =   "com.intuit.ssp:ssp-android:${Versions.sdp}"
     }
 
     object Navigation {

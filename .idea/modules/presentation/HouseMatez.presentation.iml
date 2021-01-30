@@ -61,6 +61,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: HouseMatez.presentation.presentation" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21">
         <CLASSES>
