@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/image"
+        android:scaleType="centerInside"
         android:src="@drawable/ic_onboarding_2"
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_170sdp"
